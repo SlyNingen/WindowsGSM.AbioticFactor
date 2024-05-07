@@ -14,7 +14,8 @@ Extract then Move AbioticFactor.cs folder to plugins folder OR Press on the Puzz
 <br> Click [RELOAD PLUGINS] button or restart WindowsGSM
 <br>Navigate "Servers" and Click "Install Game Server" and find "AbioticFactor Dedicated Server [AbioticFactor.cs]
 
-**Referenced Documentation:** https://github.com/DFJacob/AbioticFactorDedicatedServer/wiki/Guide-%E2%80%90-Quickstart
+**Referenced Documentation:** 
+<br> https://github.com/DFJacob/AbioticFactorDedicatedServer/wiki/Guide-%E2%80%90-Quickstart <br> https://github.com/ohmcodes/WindowsGSMPluginTemplate <br> https://github.com/ohmcodes/WindowsGSM.Palworld
 
 **Base ports:**
 Port=7777 and Query Port=27015
