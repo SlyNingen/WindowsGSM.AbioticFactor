@@ -4,7 +4,7 @@ Notice: I made this for fun an probably won't be updating it, it worked for my p
 
  **WindowsGSM Installation:**
 1. Download WindowsGSM https://windowsgsm.com/  
-2. Create a Folder at a Location you wan't all Server to be Installed and Run. 
+2. Create a Folder at a Location you want your Servers to be at example C:\user\desktop\MyWGSMFolder. 
 3. Move the WindowsGSM.Exe into previously created folder and execute it.
 
 <br> **Plugin Installation:** <br>
