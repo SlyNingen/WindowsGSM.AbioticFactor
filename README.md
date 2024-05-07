@@ -28,9 +28,9 @@ If you want to change ports that will need to be updated in the WindowsGSM using
 1. Server IP: X.X.X.X Windows GSM  Config uses it.
 2. Server Port: (Doesn't work, I set it to the same either way as the one in Server Start Param)
 3. Server Query Port: (Doesn't work, I set it to the same either way as the one in Server Start Param)
-4. Server Max Player: (Doesn't work,it is set to 6 after attempting to change, may be a -MaxPlayers=# parameter that can be set but unsure of syntax)
+4. Server Max Player: (Doesn't work,it is set to 6 after attempting to change,You need to add the MaxServerPlayers=# string and it should take number you put)
 
-5. SERVER PARAM: -log -newconsole -useperfthreads -NoAsyncLoadingThread -PORT=**7777** -QueryPort=**27015** -ServerPassword=**YourServerPassword** -SteamServerName=**YOURSERVERNAME** (The bold ones can be modified and appear to take when started)
+5. SERVER PARAM: -log -newconsole -useperfthreads -NoAsyncLoadingThread **-MaxServerPlayers=6** (needs to be added manually) -PORT=**7777** -QueryPort=**27015** -ServerPassword=**YourServerPassword** -SteamServerName=**YOURSERVERNAME** (The bold ones can be modified and appear to take when started)
 
 **ISSUES:** 
 1. Stopping the server with WindowsGSM doesn't shutdown gracefully unsure yet if that can cause corrupt elements, recommend backing up each startup.
